@@ -1,0 +1,412 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Contacts</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/custom.css" />
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBa3sdgoiGxS-j5UYj736IZ4vc3fl8fq-0&sensor=false"></script>
+</head>
+
+<body>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-63635421-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="logo">
+					SITE LOGO
+				</div>
+				<div class="col-lg-3 col-md-3  col-sm-3 col-xs-12" id="slogan">
+					SITE SLOGAN
+				</div>
+
+				<div class="col-lg-6 col-xs-12 socials">
+					<div class="row pull-right" id="social-icons">
+						<div class="col-lg-4 col-md-4 col-xs-4"><i class="fa fa-facebook-official"></i>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-4"><i class="fa fa-twitter-square"></i>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-4"><i class="fa fa-google-plus-square"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--navigation-->
+	<nav class="navbar navbar-inverse no-corners">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">M-TRAVEL</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li><a href="about-us.html">About Us</a>
+					</li>
+					<li class="active"><a href="contact-us.html">Contacts</a>
+					</li>
+					<li><a href="site-metrics.html">Google Analitics Custom Dashboard</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<!--navigation-->
+
+	<!--map-->
+	<!--map-->
+
+	<!--form-->
+	<div class="container">
+		<div>
+			<h1 class="col-lg-offset-5">
+				Offices Locations
+			</h1>
+		</div>
+		<br/>
+		<br/>
+		<div class="row">
+			<div role="tabpanel">
+
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Main Office</a>
+					</li>
+					<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Second Office</a>
+					</li>
+					<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Third Office</a>
+					</li>
+					<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Fourth Office</a>
+					</li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<!--main office-->
+					<div role="tabpanel" class="tab-pane active" id="home">
+						<h2>
+							<small>
+								Main Office
+							</small>
+						</h2>
+						<div class="row">
+							<br/>
+							<div class="col-lg-6">
+								<br/>
+								<iframe style="width: 100%; border: 0px; height: 420px; overflow: hidden;" src="./maps/main.html"></iframe>
+							</div>
+							<br/>
+							<div class="col-lg-6">
+								<form class="col-lg-12" validate>
+									<div class="form-group">
+										<label>Full Name:</label>
+										<input type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>E-mail:</label>
+										<input type="email" class="form-control" required/>
+									</div>
+									<div class="form-group">
+										<label>Message:</label>
+										<textarea class="form-control" required></textarea>
+									</div>
+									<div class="form-group">
+										<input type="submit" class=" btn btn-default form-comtrol" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--second office-->
+					<div role="tabpanel" class="tab-pane" id="profile">
+						<h2>
+							<small>
+								Second Office
+							</small>
+						</h2>
+						<div class="row">
+							<br/>
+							<div class="col-lg-6">
+								<br/>
+								<div class="well">
+									<address>
+										<p><b>
+
+											Bulgaria
+
+										</b>
+										</p>
+										<p>
+											<b>
+
+												Sofia - 1000
+
+											</b>
+										</p>
+										<p>
+											<b>
+
+												Carigradsco Shose
+
+											</b>
+										</p>
+										<p>
+											<b>
+
+												European Business Centre
+
+											</b>
+										</p>
+										<p>
+											<b>
+											Fax: 000 00 00 00 00
+										</b>
+										</p>
+										<p>
+											<b>
+												Tel: 000 00 00 00
+											</b>
+										</p>
+										<p>
+											<b>
+											E-mail: some@gmail.com
+											</b>
+										</p>
+									</address>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<form class="col-lg-12" validate>
+									<div class="form-group">
+										<label>Full Name:</label>
+										<input type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>E-mail:</label>
+										<input type="email" class="form-control" required/>
+									</div>
+									<div class="form-group">
+										<label>Message:</label>
+										<textarea class="form-control" required></textarea>
+									</div>
+									<div class="form-group">
+										<input type="submit" class=" btn btn-default form-comtrol" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--third office-->
+					<div role="tabpanel" class="tab-pane" id="messages">
+						<h2>
+							<small>
+								Third Office
+							</small>
+						</h2>
+						<div class="row">
+							<br/>
+							<div class="col-lg-6">
+								<br/>
+								<div class="well">
+									<address>
+										<p><b>
+
+											Bulgaria
+
+										</b>
+										</p>
+										<p>
+											<b>
+
+												Sofia - 1000
+
+											</b>
+										</p>
+										<p>
+											<b>
+
+												Carigradsco Shose
+
+											</b>
+										</p>
+										<p>
+											<b>
+
+												European Business Centre
+
+											</b>
+										</p>
+										<p>
+											<b>
+											Fax: 000 00 00 00 00
+										</b>
+										</p>
+										<p>
+											<b>
+												Tel: 000 00 00 00
+											</b>
+										</p>
+										<p>
+											<b>
+											E-mail: some@gmail.com
+											</b>
+										</p>
+									</address>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<form class="col-lg-12" validate>
+									<div class="form-group">
+										<label>Full Name:</label>
+										<input type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>E-mail:</label>
+										<input type="email" class="form-control" required/>
+									</div>
+									<div class="form-group">
+										<label>Message:</label>
+										<textarea class="form-control" required></textarea>
+									</div>
+									<div class="form-group">
+										<input type="submit" class=" btn btn-default form-comtrol" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--fourth office-->
+					<div role="tabpanel" class="tab-pane" id="settings">
+						<h2>
+							<small>
+								Fourth Office
+							</small>
+						</h2>
+						<div class="row">
+							<br/>
+							<div class="col-lg-6">
+								<br/>
+								<div class="well">
+									<address>
+										<p><b>
+
+											Bulgaria
+
+										</b>
+										</p>
+										<p>
+											<b>
+
+												Sofia - 1000
+
+											</b>
+										</p>
+										<p>
+											<b>
+
+												Carigradsco Shose
+
+											</b>
+										</p>
+										<p>
+											<b>
+
+												European Business Centre
+
+											</b>
+										</p>
+										<p>
+											<b>
+											Fax: 000 00 00 00 00
+										</b>
+										</p>
+										<p>
+											<b>
+												Tel: 000 00 00 00
+											</b>
+										</p>
+										<p>
+											<b>
+											E-mail: some@gmail.com
+											</b>
+										</p>
+									</address>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<form class="col-lg-12" validate>
+									<div class="form-group">
+										<label>Full Name:</label>
+										<input type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label>E-mail:</label>
+										<input type="email" class="form-control" required/>
+									</div>
+									<div class="form-group">
+										<label>Message:</label>
+										<textarea class="form-control" required></textarea>
+									</div>
+									<div class="form-group">
+										<input type="submit" class=" btn btn-default form-comtrol" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	<!--form-->
+
+
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>
+				Ea ea exercitation. Eu amet tempor distinguantur o quamquam se sunt e iis quem enim veniam deserunt de quo si fore fabulas in admodum aut dolore qui dolore si quo cillum nostrud te nostrud exercitation nam mentitum, varias coniunctione tempor dolor pariatur. E amet te tamen, illum occaecat de excepteur, o e sint aute quis, aliquip sint minim possumus quis. Noster est mentitum, laborum e varias, noster illustriora tempor quorum fabulas se est aliqua fore legam ingeniis, id eram duis quo cernantur, varias eiusmod hic eram ipsum, irure an cernantur, proident quae quae iudicem quem. Incurreret sint noster hic lorem, ubi ex nisi tamen nulla ubi eiusmod tamen doctrina litteris, labore commodo ne reprehenderit, ita cupidatat nam doctrina, esse iis ita ipsum mandaremus ubi aliquip eram elit expetendis tamen, eu ne dolor cernantur. Fabulas enim varias arbitror esse, expetendis quis quibusdam voluptate, anim commodo adipisicing, quem ea officia qui est fugiat iudicem, do non distinguantur se et ab praetermissum, do a illustriora. Do e amet esse quae, ingeniis dolore aliqua appellat quem.
+			</p>
+		</div>
+	</div>
+	<!--footer-->
+</body>
+
+</html>
